@@ -4,10 +4,8 @@
     box-sizing: border-box;
 }
 
-header {
-    color: aqua;
-}
-
-body{
-    background-color: pink;
-}
+.memories-container {
+    width: 450px;
+    height: 450px;
+    border-radius: 10px;
+} 
