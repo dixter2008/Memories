@@ -6,16 +6,30 @@
     <link rel="stylesheet" href="style.css">
     <title>Memories</title>
 </head>
-<header>
-    
-</header>
 <body>
-    <div class="container">
-        <div class="box">
-            
-        </div>
-        <h1>date</h1>
+    <header>
+        <h1>My Memories</h1>
+    </header>
+    <div class="controls">
+        <button id="duplicate-btn">Add New Memory Card</button>
     </div>
-
+     <div id="memories-container">
+        <div class="container">
+            <img src="profile.jpg" class="memories-container">
+            <button class="delete-btn">Delete</button>
+            <div class="panel">
+                <button class="upload-btn">Upload Image</button>
+                <input type="file" accept="image/jpeg, image/png, image/jpg" style="display: none" class="file-input">
+            <div class="date">
+                <label for="dateInput">Select a date:</label>
+                <input type="date" id="dateInput" name="dateInput">
+                <button id="submitBtn">Submit & Save</button>
+                <button id="clearBtn">Clear Saved Date</button>
+                <p id="output"></p>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
